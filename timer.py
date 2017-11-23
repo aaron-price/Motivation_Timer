@@ -16,4 +16,4 @@ print('...')
 sleep(mins)
 
 # Close selected app
-subprocess.call(['osascript', '-e', 'tell application "' + app + '" to quit'])
+subprocess.call(['osascript', '-e', f'tell application "{app}" to quit'])
