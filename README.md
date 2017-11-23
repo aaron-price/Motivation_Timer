@@ -5,9 +5,10 @@ Sets a timer which will close an application on your computer after a certain ti
 By default, it will close Chrome after 1 hour.
 
 # Usage
-Download to your computer
-open your .bash_profile
-Insert the following line:
+1. Download to your computer
+2. Open your .bash_profile
+3. Insert the following line:
+
 ```bash
 function timer() {
     python path/to/timer.py
