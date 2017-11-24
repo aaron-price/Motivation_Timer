@@ -21,7 +21,7 @@ Now start a new terminal window and type `timer`
 ~/Documents:$ timer
 How many minutes shall I wait? (Default: 60) | 45
 Which app do you want to close at the end? (Default: Chrome) |
-Ok, closing Chrome in 45 minutes!
+Ok, closing Chrome at 12:10!
 ...
 ```
 
