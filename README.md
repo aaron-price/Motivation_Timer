@@ -1,10 +1,6 @@
 # Timer
 
-Sets a timer which will close an application on your computer after a certain time.
-
-By default, it will close Chrome after 1 hour.
-
-# Set up
+## Set up
 1. Download to your computer
 2. Open your .bash_profile
 3. Insert the following line:
@@ -18,10 +14,12 @@ function pomodorro() {
 }
 ```
 
-# Usage
+## Usage
 #### Simple Timer
 
 Start a new terminal window and type `timer`
+
+It will close your browser (or any other app) after a specified time.
 
 ```bash
 ~/Documents:$ timer
@@ -47,5 +45,5 @@ Closing Chrome at 13:56.
 
 ```
 
-# Caveats
+## Caveats
 Only works on MacOS
