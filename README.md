@@ -3,7 +3,7 @@
 ## Set up
 1. Download to your computer
 2. Open your .bash_profile
-3. Insert the following line:
+3. Insert the following code anywhere:
 
 ```bash
 function timer() {
@@ -13,6 +13,11 @@ function pomodorro() {
     python path/to/pomodorro.py
 }
 ```
+
+## Caveats
+Only works on MacOS
+
+Requires your `python` cli command to use python 3.6+. Check it by running `python --version`. You might need to upgrade or use python3 in the bash functions.
 
 ## Usage
 #### Simple Timer
@@ -33,7 +38,7 @@ Ok, closing Chrome at 12:10!
 
 Start a new terminal window and type `pomodorro`
 
-It will endlessly open and close your browser at the specified intervals until you stop the script with Cmd + C
+It will endlessly open and close your browser at the specified intervals until you stop the script with `Ctrl + c`
 
 ```bash
 ~/Documents:$ pomodorro
@@ -45,5 +50,3 @@ Closing Chrome at 13:56.
 
 ```
 
-## Caveats
-Only works on MacOS
